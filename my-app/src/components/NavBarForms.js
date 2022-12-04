@@ -1,4 +1,5 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import css from './css/NavBarForm.module.css'
 
 export class NavBarForms extends Component {
   constructor(props) {
@@ -19,7 +20,7 @@ export class NavBarForms extends Component {
 
   render() {
     return (
-      <div>
+      <div className={css.NavBar}>
         <h1>My Gallery</h1>
         {this.state.isLoggedIn ? (
           <form>

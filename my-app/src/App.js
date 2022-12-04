@@ -4,7 +4,7 @@ import NavBarForms from './components/NavBarForms';
 function App() {
   return (
     <div className={css.App}>
-      <NavBarForms className={css.NavBarForm} />
+      <NavBarForms />
     </div>
   );
 }
